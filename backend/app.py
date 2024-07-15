@@ -80,4 +80,5 @@ def delete_user():
     return user_schema.jsonify(user)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='192.168.56.1',port=3000,debug=True)
+    #flask run --debug --host='192.168.56.1' --port=3000
