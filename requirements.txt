@@ -1,0 +1,6 @@
+Flask
+Flask-SQLAlchemy
+mysqlclient
+Flask-Marshmallow
+Marshmallow-SQLAlchemy
+Requests
